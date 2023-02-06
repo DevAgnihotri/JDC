@@ -1,983 +1,238 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>JDC</title>
+    <title>Events</title>
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="">
+    <meta name="description" content="100% responsive Bootstrap 5.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
-    <!-- CSS
+    <!-- All CSS is here
 	============================================ -->
-
-    <!-- Vendor CSS (Bootstrap & Icon Font) -->
-    <link rel="stylesheet" href="assets/css/vendor/font-awesome-pro.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="assets/css/vendor/muli-font.css">
-
-    <!-- Plugins CSS (All Plugins Files) -->
-    
-    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/animate.css">
-    <link rel="stylesheet" href="assets/css/plugins/aos.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
-    
-
-    <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-    <!-- <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css"> -->
-
+    <link rel="stylesheet" href="assets/css/vendor/proximanova.css" />
+    <link rel="stylesheet" href="assets/css/vendor/line-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/animate.css" />
+    <link rel="stylesheet" href="assets/css/plugins/aos.css" />
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/plugins/slinky.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
-<body>
 
-    <div id="page" class="section">
-        <!-- Header Section Start -->
-        <div class="header-section header-transparent sticky-header section">
-            <div class="header-inner">
-                <div class="container position-relative">
-                    <div class="row justify-content-between align-items-center">
 
-                        <!-- Header Logo Start -->
-                        <div class="col-xl-2 col-auto order-0">
-                            <div class="header-logo">
-                                <a href="index.html">
-                                    <img class="dark-logo" src="./assets/images/jdc/logo_one.png" alt="Agency Logo">
-                                    <img class="light-logo" src="./assets/images/jdc/logo_one.png" alt="Agency Logo">
+
+<body class="body-dark-mode-wrap">
+    <div class="main-wrapper">
+        <header class="header-area header-area-padding-1 section-padding-lr-1 transparent-bar sticky-bar bg-white sticky-white-bg">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+                        <div class="logo logo-center-small">
+                            <a class="default-logo" href="index.html"><img src="assets/images/logo/logo.png" alt="logo"></a>
+                            <a class="white-logo" href="index.html"><img src="assets/images/logo/logo-white.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <div class="main-menu text-center">
+                            <nav>
+                                <ul>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="cultural-events.html">Cultural Events</a></li>
+                                    <li><a href="academic-events.html">Academic Events</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+                        <div class="header-action">
+                            <div class="search-wrap">
+                                <a class="search-active" href="#">
+                                    <img class="injectable" src="assets/images/icon-img/search.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="light-dark-mode-wrap">
+                                <span class="dark-mode">Dark mode</span>
+                                <span class="light-mode">Light mode</span>
+                                <div class="light-dark-btn">
+
+                                </div>
+                            </div>
+                            <div class="offcanvas-wrap">
+                                <a class="header-aside-button" href="#">
+                                    <span class="offcanvas-width-1"></span>
+                                    <span class="offcanvas-width-2"></span>
                                 </a>
                             </div>
                         </div>
-                        <!-- Header Logo End -->
-
-                        <!-- Header Main Menu Start -->
-                        <div class="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1">
-                            <div class="menu-column-area d-none d-xl-block position-static">
-                                <nav class="site-main-menu">
-                                    <ul>
-                                        <li>
-                                            <a class="active" href="index.html"><span
-                                                    class="menu-text">Homepage</span></a>
-                                        </li>
-                                        <li class="has-children">
-                                            <a href="about.html"><span class="menu-text">About</span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.html"><span class="menu-text">About</span></a></li>
-                                                <li><a href="./Infrastructure/index.html"><span class="menu-text">College at a glance</span></a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="faculty.html"><span class="menu-text">Faculty</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="courses.html"><span class="menu-text">Courses</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="./events/index.html"><span class="menu-text">Events</span></a>
-                                        </li>
-                                        <li class="has-children">
-                                            <a href="#"><span class="menu-text">Extra</span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                                            <ul class="sub-menu">
-                                                <li><a href="#"><span class="menu-text">Online payment</span></a></li>
-                                                <li><a href="#"><span class="menu-text">Online learning</span></a></li>
-                                                <li><a href="./faq/index.html"><span class="menu-text">FAQ</span></a></li>
-                                                <li><a href="#"><span class="menu-text">More->></span></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <!-- Header Mobile Menu Toggle Start -->
-                            <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
-                                <button class="toggle">
-                                    <i class="icon-top"></i>
-                                    <i class="icon-middle"></i>
-                                    <i class="icon-bottom"></i>
-                                </button>
-                            </div>
-                            <!-- Header Mobile Menu Toggle End -->
-                        </div>
-                        <!-- Header Main Menu End -->
-
-                        <!-- Header Right Start -->
-                        <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
-                            <a href="contact-us.html" class="btn btn-light btn-hover-primary">Contact Us</a>
-                        </div>
-                        <!-- Header Right End -->
-
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Header Section End -->
-
-        <!-- Slider/Intro Section Start -->
-        <div class="intro-slider-wrap section">
-            <div class="intro-slider swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="intro-section section overlay" data-bg-image="assets/images/jdc/back1.jpg">
-
-                            <div class="container">
-                                <div class="row row-cols-lg-1 row-cols-1">
-
-                                    <div class="col align-self-center">
-                                        <div class="intro-content mt-xl-8 mt-lg-8 mt-md-8 mt-sm-8 mt-xs-8">
-                                            <h2 class="title">Why JDC?</h2>
-                                            <div class="desc">
-                                                <p>Jagran College is engaged in the cutting edge research and teaching that helps in understanding global challenges. The college has gained its position as one of the best degree colleges in Uttar Pradesh because of its holistic approach to education which emphasizes on both academic training and development of social and interpersonal skills.</p>
-                                            </div>
-                                            <a href="about.html" class="btn btn-primary btn-hover-secondary">Explore</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
+        </header>
+        <!-- aside start -->
+        <div class="header-aside-active">
+            <div class="header-aside-wrap">
+                <a class="aside-close"><img class="injectable" src="assets/images/icon-img/aside-close.svg" alt=""></a>
+                <div class="header-aside-content-wrap">
+                    <div id="menu" class="slinky-mobile-menu text-left">
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="cultural-events.html">Cultural Events</a></li>
+                            <li><a href="academic-events.html">Academic Events</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="intro-section section overlay" data-bg-image="assets/images/hero-image/hero-2.jpg">
-
-                            <div class="container">
-                                <div class="row row-cols-lg-1 row-cols-1">
-
-                                    <!-- Intro One Content Start -->
-                                    <div class="col align-self-center">
-                                        <div class="intro-content mt-8">
-                                            <h2 class="title">Online Learning</h2>
-                                            <div class="desc">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eveniet harum non inventore placeat iste, nostrum, necessitatibus ex ut pariatur perspiciatis quae sunt quod natus quidem quis dignissimos id nam!</p>
-                                            </div>
-                                            <a href="about.html"
-                                                class="btn btn-primary btn-hover-secondary">Explore</a>
-                                        </div>
-                                    </div>
-                                    <!-- Intro One Content End -->
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="intro-section section overlay" data-bg-image="assets/images/hero-image/hero-3.jpg">
-
-                            <div class="container">
-                                <div class="row row-cols-lg-1 row-cols-1">
-
-                                    <!-- Intro One Content Start -->
-                                    <div class="col align-self-center max-mb-30">
-                                        <div class="intro-content mt-8">
-                                            <h2 class="title">Online Payment</h2>
-                                            <div class="desc">
-                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet qui saepe sequi alias quia optio quis dolorum enim corporis dicta cum ut fuga nihil, tempora tempore quo quisquam nemo culpa!</p>
-                                            </div>
-                                            <a href="about.html"
-                                                class="btn btn-primary btn-hover-secondary">Explore</a>
-                                        </div>
-                                    </div>
-                                    <!-- Intro One Content End -->
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="home-slider-prev swiper-button-prev main-slider-nav"><i class="fal fa-angle-left"></i></div>
-                <div class="home-slider-next swiper-button-next main-slider-nav"><i class="fal fa-angle-right"></i>
-                </div>
-            </div>
-        </div>
-        <!-- Slider/Intro Section End -->
-
-        <!-- About Section Start -->
-        <div class="section section-padding-t90 section-padding-bottom-190">
-            <div class="container">
-
-                <!-- Section Title Start -->
-                <div class="section-title text-center" data-aos="fade-up">
-                    <h2 class="title">Welcome to Jagran College of Arts, Science & Commerce</h2>
-                    <p class="sub-title">Our faculty of teachers and non-teaching staff are perfectionists
-                        <br> who love what they do and love where they work
-                    </p>
-                </div>
-                <!-- Section Title End -->
-
-                <!-- About Wrapper Start -->
-                <div class="row">
-
-                    <!-- About Image Area Start -->
-                    <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
-                        <div class="about-image-area">
-                            <div class="about-image js-tilt">
-                                <img src="assets/images/about/home-one-about/home_agency_about_1.jpg" alt="">
-                            </div>
-                            <div class="about-image js-tilt">
-                                <img src="assets/images/about/home-one-about/home_agency_about_2.jpg" alt="">
-                            </div>
-                            <!-- Animation Shape Start -->
-                            <div class="shape shape-1 scene">
-                                <span data-depth="1"><img src="assets/images/shape-animation/about-shape-1.png"
-                                        alt=""></span>
-                            </div>
-                            <!-- Animation Shape End -->
-                        </div>
-                    </div>
-                    <!-- About Image Area Start -->
-
-                    <!-- About Start -->
-                    <div class="col-xl-5 col-lg-6 col-12" data-aos="fade-up">
-                        <!-- About Content Area Start -->
-                        <div class="about-content-area">
-                            <!-- Section Title Two Start -->
-                            <div class="section-title-two">
-                                <span class="sub-title">Every day brings new challenges</span>
-                                <h3 class="title">Creative agency focused on vision, product and people</h3>
-                            </div>
-                            <!-- Section Title Two End -->
-
-                            <p>Jagran College of Arts, Science & Commerce, Kanpur, is a milestone in Jagran’s increasing endeavor to bring quality higher education to the city.  It is an English Medium College of higher education, established in the year 2006 under self-financing scheme of CSJM University. </p>
-
-                            <a class="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="#">About
-                                Us</a>
-                        </div>
-                        <!-- About Content Area Start -->
-                    </div>
-                    <!-- About Start -->
-
-                </div>
-                <!-- About Wrapper End -->
-
-            </div>
-        </div>
-        <!-- About Section End -->
-
-        <!-- Objectives With Video Section Start -->
-        <div class="section section-padding" data-bg-color="#f8faff">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-xl-5 col-lg-6 col-12" data-aos="fade-up">
-                        <!-- Skill With Video Content Start -->
-                        <div class="skill-with-video-content">
-                            <!-- Section Title Two Start -->
-                            <div class="section-title-two mb-8">
-                                <span class="sub-title">Development that converts and delivers</span>
-                                <h3 class="title">We offer the knowledge and skills that you deserve</h3>
-                            </div>
-                            <!-- Section Title Two End -->
-
-                            <!-- Agency List Start -->
-                            <ul class="agency-list">
-                                <li class="item">
-                                    <div class="icon">
-                                        <i class="fas fa-check"></i>
-                                    </div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisi</div>
-                                </li>
-                                <li class="item">
-                                    <div class="icon">
-                                        <i class="fas fa-check"></i>
-                                    </div>
-                                    <div class="text">We have produced hundreds of successfull alumini</div>
-                                </li>
-                                <li class="item">
-                                    <div class="icon">
-                                        <i class="fas fa-check"></i>
-                                    </div>
-                                    <div class="text">Strategic consulting and online learning</div>
-                                </li>
-                                <li class="item">
-                                    <div class="icon">
-                                        <i class="fas fa-check"></i>
-                                    </div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisi</div>
-                                </li>
+                    <div class="header-aside-content">
+                        <img src="assets/images/photography/photography-7.png" alt="">
+                        <p>Phasellus sed libero massa. Fusce nulla lorem, vulputate eu nisl quis, suscipit tempor enim. Pellentesque consequat tempus metus nec mattis. Nunc porta tortor vel li</p>
+                        <div class="aside-contact-info">
+                            <ul>
+                                <li><span>Email: </span><a href="#">jagrancollegeasc@gmail.com</a></li>
+                                <li><span>Call: </span><a href="#">(+91) 512-2647289</a></li>
+                                <li><span>Location: </span>620-W Block, Saket Nagar,
+                                    Kanpur-208014, Uttar Pradesh</li>
                             </ul>
-                            <!-- Agency List End -->
                         </div>
-                        <!-- Skill With Video Content End -->
-                    </div>
-
-                    <div class="offset-xl-1 col-xl-6 col-lg-6 col-12" data-aos="fade-up">
-                        <!-- Skill With Video Popup Start -->
-                        <div class="video-popup-area">
-                            <!-- Video Popup Start -->
-                            <div class="skill-video" data-aos="fade-up">
-                                <img class="image" src="assets/images/video/skill-video.jpg" alt="video popup">
-                                <a href="#" class="icon video-popup"><i
-                                        class="fas fa-play"></i></i></a>
-                            </div>
-                            <!-- Video Popup End -->
-
-                            <!-- Animation Shape Start -->
-                            <div class="shape shape-1 scene">
-                                <span data-depth="1">
-                                    <img src="assets/images/shape-animation/video-shape-1.png" alt="">
-                                </span>
-                            </div>
-                            <!-- Animation Shape End -->
+                        <div class="aside-copyright copyright">
+                            <p>Copyright ©2023 All rights reserved | Made with <img class="injectable" src="assets/images/icon-img/love.svg" alt=""> <a href="#"> by Dev</a></p>
                         </div>
-                        <!-- Skill With Video Popup End -->
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-        <!-- Objectives With Video Section End -->
-
-        <!-- Service Section Start -->
-        <div class="section section-padding-t90-b100">
-            <div class="container">
-
-                <!-- Section Title Start -->
-                <div class="section-title text-center mb-12" data-aos="fade-up">
-                    <h2 class="title fz-32">Lorem ipsum dolor sit amet, consectetur adipisicing</h2>
-                    <p class="sub-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus ad eaque dolores, sunt nisi id at pariatur saepe esse omnis placeat voluptates ab.
-                    </p>
-                </div>
-                <!-- Section Title End -->
-                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
-
-                    <!-- Icon Box Start -->
-                    <div class="col mb-6" data-aos="fade-up">
-
-                        <div class="icon-box text-center" data-vivus-hover>
-                            <div class="icon"><img class="svgInject"
-                                    src="assets/images/svg/linea/linea-basic-target.svg" alt=""></div>
-                            <div class="content">
-                                <h3 class="title">Online Payment</h3>
-                                <div class="desc">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime incidunt ad ullam deserunt harum iure </p>
-                                </div>
-                                <a href="#" class="link">Learn More</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Icon Box End -->
-
-                    <!-- Icon Box Start -->
-                    <div class="col mb-6" data-aos="fade-up">
-
-                        <div class="icon-box text-center" data-vivus-hover>
-                            <div class="icon"><img class="svgInject"
-                                    src="assets/images/svg/linea/linea-basic-picture-multiple.svg" alt=""></div>
-                            <div class="content">
-                                <h3 class="title">Online learning</h3>
-                                <div class="desc">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, rem beatae modi eaque voluptate dolor iure ut ipsum </p>
-                                </div>
-                                <a href="#" class="link">Learn More</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Icon Box End -->
-
-                    <!-- Icon Box Start -->
-                    <div class="col mb-6" data-aos="fade-up">
-
-                        <div class="icon-box text-center" data-vivus-hover>
-                            <div class="icon"><img class="svgInject"
-                                    src="assets/images/svg/linea/linea-basic-life-buoy.svg" alt=""></div>
-                            <div class="content">
-                                <h3 class="title">More</h3>
-                                <div class="desc">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci accusamus omnis molliti</p>
-                                </div>
-                                <a href="#" class="link">Learn More</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Icon Box End -->
-
-                </div>
-            </div>
-        </div>
-        <!-- Service Section End -->
-
-        <!-- Events Section Start -->
-        <div class="section section-padding-top section-padding-bottom-200" data-bg-color="#f8faff">
-            <div class="container">
-                <div class="row">
-                    <!-- Success Content Start -->
-                    <div class="col-lg-5" data-aos="fade-up">
-                        <div class="success-content">
-                            <!-- Section Title Two Start -->
-                            <div class="section-title-two mb-lg-8 mb-6">
-                                <span class="sub-title">Your success is our success</span>
-                                <h3 class="title">Neque ducimus cum nemo id illo nostrum quos blanditiis at maxime!</h3>
-                            </div>
-                            <!-- Section Title Two End -->
-
-                            <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus nulla in, sit expedita molestiae, neque ducimus cum nemo id illo nostrum quos blanditiis at maxime! Sequi veritatis placeat debitis fuga?</p>
-
-                            <a class="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="#">Get
-                                Started</a>
-                        </div>
-
-                    </div>
-                    <!-- Success Content End -->
-
-                    <!-- Success Image Start -->
-                    <div class="offset-lg-1 col-lg-6" data-aos="fade-up">
-                        <div class="success-image-wrap">
-                            <div class="success-image js-tilt">
-                                <img src="assets/images/success/success-1.jpg" alt="success-1">
-                            </div>
-                            <div class="success-image js-tilt">
-                                <img src="assets/images/success/success-2.jpg" alt="success-1">
-                            </div>
-
-                            <!-- Animation Shape Start -->
-                            <div class="shape shape-1 scene">
-                                <span data-depth="1"><img src="assets/images/shape-animation/video-shape-1.png"
-                                        alt="shape"></span>
-                            </div>
-                            <!-- Animation Shape End -->
-                        </div>
-                    </div>
-                    <!-- Success Image End -->
-                </div>
-            </div>
-        </div>
-        <!-- Events Section End -->
-
-        <!-- Courses Section Start -->
-        <div class="section section-padding-t90 ag-masonary-wrapper">
-            <div class="container-fluid px-0">
-                <!-- Section Title Start -->
-                <div class="section-title text-center" data-aos="fade-up">
-                    <h2 class="title fz-32">Courses offered in Jagran college</h2>
-                </div>
-                <!-- Section Title End -->
-
-                <!-- Portfolio Menu Start -->
-                <div class="messonry-button text-center mb-lg-13 mb-md-13 mb-6" data-aos="fade-up">
-                    <button data-filter="*"  class="is-checked"><span class="filter-text">All</span></button>
-                    <button data-filter=".cat-1" ><span class="filter-text">Under Graduate Courses</span></button>
-                    <button data-filter=".cat-2"><span class="filter-text">Post Graduate Courses</span></button>
-                    <button data-filter=".cat-3"><span class="filter-text">Upcoming Courses</span> </button>
-                </div>
-                <!-- Portfolio Menu End -->
-
-                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 mesonry-list">
-                    <div class="resizer col"></div>
-                    <!-- Single Portfolio Start -->
-                    <div class="col cat-1 ">
-                        <div class="single-portfolio">
-                            <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-1.jpg" alt="Portfolio-01">
-                            </div>
-                            <div class="content">
-                                <h5 class="title"><a href="./course-details.html">BBA <img
-                                            src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Portfolio End -->
-                    <!-- Single Portfolio Start -->
-                    <div class="col cat-1 ">
-                        <div class="single-portfolio">
-                            <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-2.jpg" alt="Portfolio-01">
-                            </div>
-                            <div class="content">
-                                <h5 class="title"><a href="./course-details.html">BCA <img
-                                            src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Portfolio End -->
-                    <!-- Single Portfolio Start -->
-                    <div class="col cat-1 ">
-                        <div class="single-portfolio">
-                            <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-3.jpg" alt="Portfolio-01">
-                            </div>
-                            <div class="content">
-                                <h5 class="title"><a href="./course-details.html">B.Com. <img
-                                            src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Portfolio End -->
-                    <!-- Single Portfolio Start -->
-                    <div class="col cat-1 ">
-                        <div class="single-portfolio">
-                            <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-4.jpg" alt="Portfolio-01">
-                            </div>
-                            <div class="content">
-                                <h5 class="title"><a href="./course-details.html">B.A. <img
-                                            src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Portfolio End -->
-                    <!-- Single Portfolio Start -->
-                    <div class="col cat-1">
-                        <div class="single-portfolio">
-                            <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-5.jpg" alt="Portfolio-01">
-                            </div>
-                            <div class="content">
-                                <h5 class="title"><a href="./course-details.html">B.Com.(Hons.) <img
-                                            src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Portfolio End -->
-                    <!-- Single Portfolio Start -->
-                    <div class="col cat-1">
-                        <div class="single-portfolio">
-                            <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-6.jpg" alt="Portfolio-01">
-                            </div>
-                            <div class="content">
-                                <h5 class="title"><a href="./course-details.html">B.Sc. <img
-                                            src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Portfolio End -->
-                    <!-- Single Portfolio Start -->
-                    <div class="col cat-2">
-                        <div class="single-portfolio">
-                            <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-6.jpg" alt="Portfolio-01">
-                            </div>
-                            <div class="content">
-                                <h5 class="title"><a href="./course-details.html">M.Com. <img
-                                            src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Portfolio End -->
-                    <!-- Single Portfolio Start -->
-                    <div class="col cat-3">
-                        <div class="single-portfolio">
-                            <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-6.jpg" alt="Portfolio-01">
-                            </div>
-                            <div class="content">
-                                <h5 class="title"><a href="404.html">Integrated B.Ed <img
-                                            src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Portfolio End -->
-                </div>
-            </div>
-        </div>
-        <!-- Courses Section End -->
-
-        <!-- Blog Section Start -->
-        <div class="section section-padding-t90-b100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">
-                        <!-- Section Title Two Start -->
-                        <div class="section-title-two mb-lg-12 mb-md-6" data-aos="fade-up">
-                            <span class="sub-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam</span>
-                            <h3 class="title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illo ipsa aliquam veniam ratione nulla, magni excepturi </h3>
-                        </div>
-                        <!-- Section Title Two End -->
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="section-button text-lg-right text-left mb-md-8 mb-sm-6 mb-6" data-aos="fade-up">
-                            <a href="#" class="btn btn-primary ">Visit</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
-                    <div class="col mb-6" data-aos="fade-up">
-                        <!-- Single Blog Start -->
-                        <div class="blog">
-                            <div class="thumbnail">
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/370/blog-1.jpg"
-                                        alt="Blog Image"></a>
-                            </div>
-                            <div class="info">
-                                <h3 class="title"><a href="blog-details.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illo ipsa aliquam</a></h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, modi repudiandae sint, dolore incidunt, possimus consectetur ipsa necessitatibus quasi quia veniam tempore omnis hic officia repellat aspernatur a. Molestiae, facilis.</p>
-                                <a href="#" class="link "> <mark>Read More</mark> </a>
-                            </div>
-                        </div>
-                        <!-- Single Blog End -->
-                    </div>
-                    <div class="col mb-6" data-aos="fade-up">
-                        <!-- Single Blog Start -->
-                        <div class="blog">
-                            <div class="thumbnail">
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/370/blog-2.jpg"
-                                        alt="Blog Image"></a>
-                            </div>
-                            <div class="info">
-                                <h3 class="title"><a href="blog-details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ducimus suscipit quaerat, tempora nihil in impedit consectetur molestiae </a></h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, laborum repellendus dolorum perferendis reprehenderit velit reiciendis assumenda eaque est magnam dignissimos pariatur non cumque expedita nisi quidem veniam odio sunt.</p>
-                                <a href="#" class="link "> <mark>Read More</mark> </a>
-                            </div>
-                        </div>
-                        <!-- Single Blog End -->
-                    </div>
-                    <div class="col mb-6" data-aos="fade-up">
-                        <!-- Single Blog Start -->
-                        <div class="blog">
-                            <div class="thumbnail">
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/370/blog-3.jpg"
-                                        alt="Blog Image"></a>
-                            </div>
-                            <div class="info">
-                                <h3 class="title"><a href="blog-details.html">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti mollitia exercitationem libero rem commodi, maiores, provident aliquid, sint vero repellendus eligendi tempore </a></h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi nesciunt molestias maiores asperiores id. Ipsa itaque eum sunt quibusdam rem, animi quaerat ratione eaque vero molestiae nemo assumenda neque amet.</p>
-                                <a href="#" class="link "> <mark>Read More</mark> </a>
-                            </div>
-                        </div>
-                        <!-- Single Blog End -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Blog Section End -->
-
-        <!-- Faculty Section Start -->
-        <div class="section section-padding-t110-b120 newsletter-section" data-overlay="0.7"
-            data-bg-image="assets/images/bg/newsletter.jpg">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">
-                        <!-- Newsletter Content Start -->
-                        <div class="newsletter-content mb-lg-0 mb-6">
-                            <!-- Section Title Start -->
-                            <div class="section-title color-light text-left mb-0" data-aos="fade-up">
-                                <h2 class="title">Let’s find out who works with us</h2>
-                                <p class="sub-title fz-18 ml-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam eius alias repudiandae maiores voluptatem sunt ducimus esse. Odio, eveniet</p>
-                            </div>
-                            <!-- Section Title End -->
-                        </div>
-                        <!-- Newsletter Content End -->
-                    </div>
-                    <div class="col-lg-4">
-                        <!-- Newsletter Form Start -->
-                        <div class="newsletter-form ml-xl-7 ml-lg-0" data-aos="fade-up">
-                            <a href="#" class="btn btn-ternary ">Visit</a>
-                        </div>
-                        <!-- Newsletter Form End -->
+        <div class="hero-area hero-section-padding section-padding-lr-1">
+            <div class="container-fluid">
+                <div class="hero-content">
+                    <h4 data-aos="fade-up" data-aos-delay="200">Jagran college's</h4>
+                    <h1 data-aos="fade-up" data-aos-delay="300">Events Page</h1>
+                    <p data-aos="fade-up" data-aos-delay="400">College is not just about academics, it is also about creating lasting memories and experiences. One of the ways in which students can do this is by participating in college events. These events can range from academic events such as guest lectures, workshops, and seminars to social events like concerts, parties, and festivals. They provide students with opportunities to learn, network, and have fun outside of the classroom.</p>
+                    <div class="hero-btn" data-aos="fade-up" data-aos-delay="500">
+                        <a href="./academic-events.html">ACADEMIC EVENTS</a>
+                    </div><br><br>
+                    <div class="hero-btn" data-aos="fade-up" data-aos-delay="500">
+                        <a href="./cultural-events.html">CULTURAL EVENTS</a>
                     </div>
                 </div>
-            </div>
-
-            <!-- Animation Shape Start -->
-            <div class="shape shape-1 scene">
-                <span data-depth="1">
-                    <img src="assets/images/shape-animation/newsletter-shape.png" alt="">
-                </span>
-            </div>
-            <!-- Animation Shape End -->
-        </div>
-        <!-- Faculty Section End -->
-
-        <!-- Contact Information Section Start -->
-        <div class="section section-padding-t90-b100">
-            <div class="container shape-animate">
-                <!-- Section Title Start -->
-                <div class="section-title text-center mb-lg-12 mb-sm-8 mb-xs-8" data-aos="fade-up">
-                    <h2 class="title fz-32">Contact us today, let’s get to know each other</h2>
-                    <p class="sub-title">We are ready to answer all your questions! When you partner with us,
-                        <br> you get more than a contract. We are committed to your success
-                    </p>
-                </div>
-                <!-- Section Title End -->
-
-                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
-                    <div class="col mb-6" data-aos="fade-up">
-                        <!-- Contact Information Start -->
-                        <div class="contact-info" data-vivus-hover>
-                            <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-map.svg" alt="">
-                            </div>
-                            <div class="info">
-                                <h4 class="title">Our Locations</h4>
-                                <span class="info-text">620, W Block, Juhi Kalan, Saket Nagar, Kanpur, Uttar Pradesh 208014</span>
-                            </div>
-                        </div>
-                        <!-- Contact Information End -->
-                    </div>
-                    <div class="col mb-6" data-aos="fade-up">
-                        <!-- Contact Information Start -->
-                        <div class="contact-info" data-vivus-hover>
-                            <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
-                            </div>
-                            <div class="info">
-                                <h4 class="title">Give Us A Call</h4>
-                                <span class="info-text"> (+91)  0512 264 7289 <br>
-                                    (+91) 333-333-3333</span>
-                            </div>
-                        </div>
-                        <!-- Contact Information End -->
-                    </div>
-                    <div class="col mb-6" data-aos="fade-up">
-                        <!-- Contact Information Start -->
-                        <div class="contact-info" data-vivus-hover>
-                            <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg"
-                                    alt="">
-                            </div>
-                            <div class="info">
-                                <h4 class="title"> Help Desk</h4>
-                                <span class="info-text">
-                                    <a href="#"> jagrancollegeasc@gmail.com</a>
-                                    <br>
-                                    <a href="#"> jagrancollegeasc@gmail.com</a>
-                                </span>
-                            </div>
-                        </div>
-                        <!-- Contact Information End -->
-                    </div>
-                </div>
-
-                <!-- Animation Shape Start -->
-                <div class="shape shape-1 scene">
-                    <span data-depth="4"><img src="assets/images/shape-animation/video-shape-1.png" alt="shape"></span>
-                </div>
-                <!-- Animation Shape End -->
-
             </div>
         </div>
-        <!-- Contact Information Section End -->
-
-        <!-- Footer Section -->
-        <div class="footer-section section" data-bg-color="#030e22">
-            <div class="container">
-
-                <!-- Footer Top Widgets Start -->
-                <div class="row mb-lg-14 mb-md-10 mb-6">
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col-12 mb-6">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/jdc/logo_one.png"
-                                        alt="Agency Logo"></a>
-                            </div>
-                            <div class="footer-widget-content">
-                                <div class="content">
-
-
-                                    <p><a href="#">Phone no.  +91-512-2647289</a></p>
-                                    <p><a href="#">Email: jagrancollegeasc@gmail.com</a> </p>
-                                </div>
-                                <div class="footer-social-inline">
-                                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
+        <div class="mouse-scroll-area" id="scene">
+            <div data-depth="0.1" class="layer photography-img-position-1 photography-img-style">
+                <a href="#"><img src="assets/images/photography/photography-1.png" alt="photography"></a>
+                <div class="photography-content-wrap black-content">
+                    <div class="photography-content-text">
+                        <h4><span>Lorem ipsum</span><a href="#">Dolor Dolor</a></h4>
+                    </div>
+                    <div class="photography-content-icon">
+                        <a href="./Republic-day.html"><img class="injectable" src="assets/images/icon-img/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div data-depth="0.2" class="layer photography-img-position-2 photography-img-style">
+                <a href="#"><img src="assets/images/photography/photography-4.png" alt="photography"></a>
+                <div class="photography-content-wrap">
+                    <div class="photography-content-text">
+                        <h4><span>Lorem ipsum</span><a href="#">Dolor Dolor</a></h4>
+                    </div>
+                    <div class="photography-content-icon">
+                        <a href="./Teachers-Day.html"><img class="injectable" src="assets/images/icon-img/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div data-depth="0.15" class="layer photography-img-position-3 photography-img-style">
+                <a href="#"><img src="assets/images/photography/photography-3.png" alt="photography"></a>
+                <div class="photography-content-wrap">
+                    <div class="photography-content-text">
+                        <h4><span>Lorem ipsum</span><a href="#">Dolor Dolor</a></h4>
+                    </div>
+                    <div class="photography-content-icon">
+                        <a href="./Diwali.html"><img class="injectable" src="assets/images/icon-img/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div data-depth="0.3" class="layer photography-img-position-4 photography-img-style">
+                <a href="#"><img src="assets/images/photography/photography-4.png" alt="photography"></a>
+                <div class="photography-content-wrap">
+                    <div class="photography-content-text">
+                        <h4><span>Lorem ipsum</span><a href="#">Dolor Dolor</a></h4>
+                    </div>
+                    <div class="photography-content-icon">
+                        <a href="./Independence-Day.html"><img class="injectable" src="assets/images/icon-img/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div data-depth="0.25" class="layer photography-img-position-5 photography-img-style">
+                <a href="#"><img src="assets/images/photography/photography-3.png" alt="photography"></a>
+                <div class="photography-content-wrap">
+                    <div class="photography-content-text">
+                        <h4><span>Lorem ipsum</span><a href="#">Dolor Dolor</a></h4>
+                    </div>
+                    <div class="photography-content-icon">
+                        <a href="./Diwali.html"><img class="injectable" src="assets/images/icon-img/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div data-depth="0.1" class="layer photography-img-position-6 photography-img-style">
+                <a href="#"><img src="assets/images/photography/photography-6.png" alt="photography"></a>
+                <div class="photography-content-wrap">
+                    <div class="photography-content-text">
+                        <h4><span>Lorem ipsum</span><a href="#">Dolor Dolor</a></h4>
+                    </div>
+                    <div class="photography-content-icon">
+                        <a href="./Teachers-Day.html"><img class="injectable" src="assets/images/icon-img/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-area footer-padding-bottom section-padding-lr-1">
+            <div class="container-fluid">
+                <div class="footer-top footer-top-mrg">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-6 col-md-6 col-12 col-sm-6">
+                            <div class="social-style-1 social-style-mrg-top">
+                                <a href="#">Facebook</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">Instagram</a>
                             </div>
                         </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mb-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Services</h4>
-                            <div class="footer-widget-content">
+                        <div class="col-xl-5 col-lg-6 col-md-6 col-12 col-sm-6">
+                            <div class="meta-wrap meta-wrap-mrg-left">
                                 <ul>
-                                    <li><a href="./Infrastructure/index.html">Infrastructure</a></li>
-                                    <li><a href="./Messages/index.html">Messages</a></li>
-                                    <li><a href="./events/academic-events.html">Academic Events</a></li>
-                                    <li><a href="./events/cultural-events.html">Cultural Events</a></li>
+                                    <li><span>Lorem ipsum</span> <a href="#">Lorem ipsum</a></li>
+                                    <li><span>Lorem ipsum</span> <a href="#">Lorem ipsum</a></li>
+                                    <li><span>Lorem ipsum</span> <a href="#">Lorem ipsum</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Footer Widget End -->
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Courses</h4>
-                            <div class="footer-widget-content">
-                                <ul>
-                                    <li><a href="./course-details.html">BBA</a></li>
-                                    <li><a href="./course-details.html">BCA</a></li>
-                                    <li><a href="./course-details.html">Plugins<span class="ft-badge">New</span></a></li>
-                                    <li><a href="./course-details.html">B.Com.(Hons.)</a></li>
-                                    <li><a href="./course-details.html">B.Com.</a></li>
-                                    <li><a href="./course-details.html">B.Sc.</a></li>
-                                    <li><a href="./course-details.html">M.Com.</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">About</h4>
-                            <div class="footer-widget-content">
-                                <ul>
-                                    <li><a href="#">Online Learning</a></li>
-                                    <li><a href="#">Online Payment</a></li>
-                                    <li><a href="#">404 Page<span class="ft-badge">New</span></a></li>
-                                    <li><a href="./faq/index.html">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Links To</h4>
-                            <div class="footer-widget-content">
-                                <ul>
-                                    <li><a href="#">Honourable Governor of U.P.</a></li>
-                                    <li><a href="#">Chief Minister's office U.P.</a></li>
-                                    <li><a href="#">UGC</a></li>
-                                    <li><a href="#">CSJMU Kanpur</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
                 </div>
-                <!-- Footer Top Widgets End -->
-
-                <!-- Footer Copyright Start -->
-                <div class="row">
-                    <div class="col">
-                        <p class="copyright">© 2022 Made with <i class="fas fa-heart text-danger" aria-hidden="true"></i> by <a href="#"><strong>Dev Agnihotri</strong></a>.</p>
-                    </div>
+                <div class="footer-bottom copyright">
+                    <p>Copyright ©2023 All rights reserved | Made with <img class="injectable" src="assets/images/icon-img/love.svg" alt=""> <a href="#"> by Dev</a></p>
                 </div>
-                <!-- Footer Copyright End -->
-
             </div>
-        </div>
-
-        <!-- Scroll Top Start -->
-        <a href="#" class="scroll-top" id="scroll-top">
-            <i class="arrow-top fal fa-long-arrow-up"></i>
-            <i class="arrow-bottom fal fa-long-arrow-up"></i>
-        </a>
-        <!-- Scroll Top End -->
+        </footer>
     </div>
-
-    <div id="site-main-mobile-menu" class="site-main-mobile-menu">
-        <div class="site-main-mobile-menu-inner">
-            <div class="mobile-menu-header">
-                <div class="mobile-menu-logo">
-                    <a href="index.html"><img src="./assets/images/jdc/logo.png" alt=""></a>
-                </div>
-                <div class="mobile-menu-close">
-                    <button class="toggle">
-                        <i class="icon-top"></i>
-                        <i class="icon-bottom"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="mobile-menu-content">
-                <nav class="site-mobile-menu">
-                    <ul>
-                        <li>
-                            <a class="active" href="index.html"><span
-                                    class="menu-text">Homepage</span></a>
-                        </li>
-                        <li class="has-children">
-                            <a href="about.html"><span class="menu-text">About</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="about.html"><span class="menu-text">About</span></a></li>
-                                <li><a href="./Infrastructure/index.html"><span class="menu-text">College at a glance</span></a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="faculty.html"><span class="menu-text">Faculty</span></a>
-                        </li>
-                        <li>
-                            <a href="courses.html"><span class="menu-text">Courses</span></a>
-                        </li>
-                        <li>
-                            <a href="./events/index.html"><span class="menu-text">Events</span></a>
-                        </li>
-                        <li>
-                            <a href="contact-us.html"><span class="menu-text">Contact Us</span></a>
-                        </li>
-                        <li class="has-children">
-                            <a href="#"><span class="menu-text">Extra</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="#"><span class="menu-text">Online payment</span></a></li>
-                                <li><a href="#"><span class="menu-text">Online learning</span></a></li>
-                                <li><a href="./faq/index.html"><span class="menu-text">FAQ</span></a></li>
-                                <li><a href="#"><span class="menu-text">More->></span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-
-
-
-    <!-- JS
-============================================ -->
-
-    <!-- Vendors JS -->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.1.0.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugins JS -->
-    <script src="assets/js/plugins/aos.min.js"></script>
-    <script src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
-    <script src="assets/js/plugins/parallax.min.js"></script>
-    <script src="assets/js/plugins/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/plugins/jquery.counterup.min.js"></script>
-    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <!-- Global Vendor, plugins JS -->
+    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
     <script src="assets/js/plugins/svg-inject.min.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/plugins/scrollup.js"></script>
+    <script src="assets/js/plugins/aos.js"></script>
+    <script src="assets/js/plugins/magnific-popup.js"></script>
+    <script src="assets/js/plugins/mouse-parallax.js"></script>
+    <script src="assets/js/plugins/slinky.min.js"></script>
     <script src="assets/js/plugins/swiper.min.js"></script>
-    <script src="assets/js/plugins/vanilla-tilt.min.js"></script>
-    <script src="assets/js/plugins/vivus.min.js"></script>
-    <script src="assets/js/plugins/waypoints.min.js"></script>
-
-    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-    <!-- <script src="assets/js/vendor/vendor.min.js"></script>
-    <script src="assets/js/plugins/plugins.min.js"></script> -->
-
-    <!-- Main Activation JS -->
+    <script src="assets/js/plugins/ajax-mail.js"></script>
+    <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-
-
-
-
-
 </body>
 
 </html>
