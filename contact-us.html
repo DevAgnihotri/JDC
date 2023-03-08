@@ -245,7 +245,7 @@
                                         <textarea name="message" placeholder="Message"></textarea>
                                     </div>
                                     <div class="col-12 text-center mb-6">
-                                        <button class="btn btn-primary btn-hover-secondary">Submit</button>
+                                        <button class="btn btn-primary btn-hover-secondary " onclick="redirectToThankYou()">Submit</button>
                                     </div>
                                 </div>
                             </form>
@@ -462,6 +462,16 @@
 
     <!-- Main Activation JS -->
     <script src="assets/js/main.js"></script>
+	
+     <script>
+  function redirectToThankYou() {
+    // construct the URL to redirect to
+    var url = "thank_you.html";
+
+    // redirect to the URL
+    window.location.href = url;
+  }
+</script>
 
 
 
